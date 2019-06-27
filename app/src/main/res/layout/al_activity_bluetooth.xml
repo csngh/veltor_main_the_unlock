@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alteration.albluetooth.BluetoothActivity">
+
+    <!--<Switch-->
+    <!--android:id="@+id/toggleConnect"-->
+    <!--style="@android:style/Widget.Holo.Light.CompoundButton.Switch"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="50sp"-->
+    <!--android:layout_marginStart="50dp"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:switchMinWidth="20dp"-->
+    <!--android:text="CONNECT TO BT"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:textOff="CONNECT TO BT"-->
+    <!--android:textOn="DISCONNECT"-->
+    <!--android:textSize="20sp"-->
+    <!--android:visibility="gone" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/bConnect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:enabled="true"
+            android:padding="0dp"
+            android:text="CONNECT"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bDisconnect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:enabled="false"
+            android:padding="0dp"
+            android:text="DISCONNECT"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/b_bLock"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corners"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:src="@drawable/ble_lock" />
+
+    <ImageButton
+        android:id="@+id/b_bUnlock"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_corners"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:src="@drawable/ble_unlock" />
+
+</LinearLayout>

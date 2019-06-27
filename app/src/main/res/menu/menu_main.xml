@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_bluetooth"
+        android:icon="@drawable/ic_action_bluetooth"
+        android:orderInCategory="100"
+        android:title="Bluetooth"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/action_usage_logs"
+        android:orderInCategory="100"
+        android:title="Usage Logs"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share Access"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_add_device"
+        android:orderInCategory="100"
+        android:title="Add New Veltor"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_change_pin"
+        android:orderInCategory="100"
+        android:title="Change PIN"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_sos"
+        android:orderInCategory="100"
+        android:title="SOS"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never">
+
+    </item>
+
+    <!--<item-->
+    <!--android:id="@+id/action_unclaim"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="Restrict Child Users"-->
+    <!--app:showAsAction="never">-->
+
+    <!--</item>-->
+</menu>

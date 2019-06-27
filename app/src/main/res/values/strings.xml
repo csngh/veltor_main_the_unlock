@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Veltor</string>
+    <!--<string name="oauth_client_id">alteration-innotech-811</string>
+    <string name="oauth_client_secret">179526904d4019eb46b2572fbd7437ee23d03b65</string>-->
+
+    <!-- Cloud Vars -->
+    <string name="lockDoor">lockDoor</string>
+    <string name="getName">getName</string>
+
+    <string name="isLocked">isLocked</string>
+    <string name="tLog">tLog</string>
+    <string name="indexArr">indexArr</string>
+
+    <!-- Data Vars -->
+    <string name="call_lock">LOCK</string>
+    <string name="call_unlock">UNLOCK</string>
+    <string name="check_lock">: Locked</string>
+    <string name="check_unlock">: Unlocked</string>
+    <string name="encryption_key">innovation</string>
+    <string name="set_pin">SETUP 4-DIGIT PIN\nCONFIRM TWICE</string>
+    <string name="enter_pin">ENTER 4-Digit PIN</string>
+
+    <!-- Activities -->
+    <string name="child_home">Child Home</string>
+    <string name="bluetooth">Bluetooth Control</string>
+    <string name="cus_login">Customer Login</string>
+    <string name="dev_list">Veltor</string>
+    <string name="gen_qr">Share Access</string>
+    <string name="share_device">Share Access</string>
+    <string name="log">Access Log</string>
+    <string name="qr_code_activity">User Details</string>
+    <string name="pin_setup">User Credentials</string>
+    <string name="pc_select">SELECT USER</string>
+
+    <!-- Layout Vars -->
+    <string name="text_save_password">Note: We do not save your passwords, your password will be sent to you through email by your ID.</string>
+    <string name="text_no_device_found">Sorry no device found !!\nPlease add devices from menu.</string>
+    <string name="text_sel_priority">Select user</string>
+    <string name="text_dev_name">Connecting...</string>
+
+    <string name="et_enter_email">Enter Email</string>
+    <string name="et_enter_password">Enter Password</string>
+    <string name="et_enter_pin_one">PIN</string>
+    <string name="et_enter_pin_re">RE ENTER</string>
+    <string name="et_name">Enter Your Name</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_confirm">CONFIRM</string>
+    <string name="btn_parent">PARENT / ADMIN</string>
+    <string name="btn_child">CHILD / SUBSTITUTE</string>
+</resources>

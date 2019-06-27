@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.alteration.parent.PinActivity">
+
+    <TextView
+        android:id="@+id/txtSetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/et_enter_pin_one"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>-->
+
+    <com.chaos.view.PinView
+        android:id="@+id/editPin"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:cursorVisible="true"
+        android:hint="----"
+        android:inputType="numberPassword"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:cursorWidth="2dp"
+        app:itemCount="4"
+        app:itemHeight="48dp"
+        app:itemRadius="4dp"
+        app:itemSpacing="20dp"
+        app:itemWidth="50dp"
+        app:lineColor="@color/colorAccent"
+        app:lineWidth="1dp"
+        app:viewType="rectangle" />
+
+    <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/editPin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/et_enter_pin_re"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>-->
+
+    <com.chaos.view.PinView
+        android:id="@+id/editPin2"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:cursorVisible="true"
+        android:hint="----"
+        android:inputType="numberPassword"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:cursorWidth="2dp"
+        app:itemCount="4"
+        app:itemHeight="48dp"
+        app:itemRadius="4dp"
+        app:itemSpacing="20dp"
+        app:itemWidth="50dp"
+        app:lineColor="@color/colorAccent"
+        app:lineWidth="1dp"
+        app:viewType="rectangle" />
+
+    <Button
+        android:id="@+id/bConfPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/btn_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageExpired"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:src="@drawable/expired_icon" />
+
+</LinearLayout>
